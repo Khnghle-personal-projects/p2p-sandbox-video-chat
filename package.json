@@ -1,0 +1,17 @@
+{
+  "name": "p2p-sandbox",
+  "version": "1.0.0",
+  "description": "Web-RTC = set of API in the browser that lets you do things like stream videos or audio back and forth, or send DATA   WEB-RTC only available in CHROME, FIREFOX and OPERA",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^11.6.4",
+    "simple-peer": "^9.7.2",
+    "watchify": "^3.11.1"
+  }
+}
